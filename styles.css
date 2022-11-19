@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NorseBold;
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+:root {
+    --background-black: #121212;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--background-black);
+
+    font-family: NorseBold, sans-serif;
+    color: white;
+    font-size: 72px;
+}
