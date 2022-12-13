@@ -98,5 +98,21 @@ section {
 }
 
 .right {
+    color: white;
+    padding-left: 1rem;
 
+    display: flex;
+    align-items: center;
+}
+
+.text-space {
+    font-size: 1.2rem;
+}
+
+.intro-text {
+    margin: 0;
+}
+
+.push-text {
+    margin-top: 40px;
 }
